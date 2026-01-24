@@ -1,0 +1,33 @@
+<div class="flex h-screen bg-gray-100">
+
+    <aside class="flex flex-col w-64 text-white bg-gray-800">
+        <div class="flex items-center justify-center h-16 text-xl font-bold bg-gray-900 shadow-md">
+            Marcenaria APP
+        </div>
+
+        <nav class="flex-1 px-2 py-4 space-y-2">
+            <a href="#" class="flex items-center px-4 py-2 text-gray-300 bg-gray-700 rounded hover:text-white">
+                🏠 Dashboard
+            </a>
+            <a href="#" class="flex items-center px-4 py-2 text-gray-300 rounded hover:bg-gray-700 hover:text-white">
+                🪚 Materiais
+            </a>
+            <a href="#" class="flex items-center px-4 py-2 text-gray-300 rounded hover:bg-gray-700 hover:text-white">
+                💰 Orçamentos
+            </a>
+        </nav>
+
+        <div class="p-4 bg-gray-900">
+            <button (click)="logout()"
+                class="flex items-center w-full px-4 py-2 text-red-400 rounded hover:bg-gray-800 hover:text-red-300">
+                🚪 Sair
+            </button>
+        </div>
+    </aside>
+
+    <main class="flex-1 p-8 overflow-y-auto">
+        <h1 class="text-3xl font-bold text-gray-800">Bem-vindo!</h1>
+        <p class="mt-2 text-gray-600">Login realizado com sucesso.</p>
+    </main>
+
+</div>
